@@ -8,7 +8,13 @@ and open the template in the editor.
     Author     : Victor Fernandez
 */
 
+.resize{
+    resize:none;
+}
 
+#mensajeExitoEnvio{
+    display:none;
+}
 
 .justificado{
     text-align: justify;
