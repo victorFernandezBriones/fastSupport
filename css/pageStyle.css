@@ -1,0 +1,40 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12-07-2016, 18:58:21
+    Author     : Victor Fernandez
+*/
+
+
+
+.justificado{
+    text-align: justify;
+}
+
+.smallFont{
+    font-size: 50px !important;
+    padding-bottom: 4% !important;
+}
+
+#titleD{
+    padding-bottom: 25% !important;
+}
+
+#tittle1{
+    padding-bottom: 10% !important;
+}
+
+#divPagWeb{
+    padding-bottom: 32% !important;
+}
+
+#divFormat{
+    padding-bottom: 18% !important;
+}
+
+#message{
+    resize: none;
+}
