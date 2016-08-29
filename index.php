@@ -260,23 +260,26 @@
                     </div>
                     <div class="col-md-4 col-md-offset-2 to-animate">
                         <h3 class="section-title">Env&iacute;a tus consultas</h3>
-                        <form class="contact-form">
+                        <form id="formEnvioCorreo" class="contact-form">
                             <div class="form-group">
-                                <label for="name" class="sr-only">Nombre</label>
-                                <input type="name" class="form-control" id="name" placeholder="Nombre">
+                                <label for="nombre" class="sr-only">Nombre</label>
+                                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" >
                             </div>
                             <div class="form-group">
                                 <label for="email" class="sr-only">Email</label>
-                                <input type="email" class="form-control" id="email" placeholder="Email">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Email">
                             </div>
                             <div class="form-group">
-                                <label for="message" class="sr-only">Mensaje</label>
-                                <textarea class="form-control" id="message" rows="7" placeholder="Mensaje"></textarea>
+                                <label for="mensaje" class="sr-only">Mensaje</label>
+                                <textarea class="form-control resize" id="mensaje" name="mensaje" rows="7" placeholder="Mensaje"></textarea>
                             </div>
                             <div class="form-group">
                                 <input type="submit" id="btn-submit" class="btn btn-send-message btn-md" value="Enviar">
                             </div>
                         </form>
+                        <div id="mensajeExitoEnvio" name="mensajeExitoEnvio" class="alert alert-success" >
+                            <label>Consulta enviada exitosamente</label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -298,6 +301,9 @@
                 <script src="js/google_map.js"></script>-->
         <!-- Main JS (Do not remove) -->
         <script src="js/main.js"></script>
+        <script src="js/enviarMail.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+        <script src="js/validacionesCustom.js"></script>
 
     </body>
 </html>
